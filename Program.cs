@@ -10,7 +10,7 @@ namespace BugTiles
     {
         class Places
         {
-            public const int TILES = 8;
+            public const int TILES = 6;
             public const int MAX_MOVES = 10;
             public int[] MOVES = new int[] { -1, 1 };
 
