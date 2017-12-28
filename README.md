@@ -10,3 +10,40 @@ There are six tiles in a row. Under one of these tiles there's a pillbug. You do
 ## Dutch
 
 Er liggen zes stoeptegels op een rij. Onder een van deze tegels zit een pissebed. Je weet niet onder welke, maar je weet wel dat het beestje elke nacht willekeurig één plek opschuift naar links of rechts. Elke dag mag je onder één tegel kijken. Als je de tegels optimaal kiest, hoeveel dagen heb je dan maximaal nodig om aan te wijzen onder welke tegel de pissebed zit?
+
+## Solution
+
+6 tiles:
+
+```
+SOLUTION FOUND!
+CHECK: 2 REMAIN: 1,0,1,1,1,1
+CHECK: 3 REMAIN: 0,1,0,1,1,1
+CHECK: 4 REMAIN: 1,0,1,0,1,1
+CHECK: 5 REMAIN: 0,1,0,1,0,1
+CHECK: 5 REMAIN: 1,0,1,0,0,0
+CHECK: 2 REMAIN: 0,0,0,1,0,0
+SOLUTION FOUND!
+CHECK: 2 REMAIN: 1,0,1,1,1,1
+CHECK: 3 REMAIN: 0,1,0,1,1,1
+CHECK: 4 REMAIN: 1,0,1,0,1,1
+CHECK: 5 REMAIN: 0,1,0,1,0,1
+CHECK: 5 REMAIN: 1,0,1,0,0,0
+CHECK: 4 REMAIN: 0,1,0,0,0,0
+...
+```
+
+7 tiles:
+
+```
+SOLUTION FOUND!
+CHECK: 2 REMAIN: 1,0,1,1,1,1,1
+CHECK: 3 REMAIN: 0,1,0,1,1,1,1
+CHECK: 4 REMAIN: 1,0,1,0,1,1,1
+CHECK: 5 REMAIN: 0,1,0,1,0,1,1
+CHECK: 6 REMAIN: 1,0,1,0,1,0,1
+CHECK: 2 REMAIN: 0,0,0,1,0,1,0
+CHECK: 3 REMAIN: 0,0,0,0,1,0,1
+CHECK: 4 REMAIN: 0,0,0,0,0,1,0
+...
+```
